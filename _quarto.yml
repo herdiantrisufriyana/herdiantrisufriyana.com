@@ -1,9 +1,12 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - CNAME
 
 website:
   title: "herdiantrisufriyana.com"
+  google-analytics: "G-4KFTWL6MMP"
   navbar:
     left:
       - href: index.qmd
